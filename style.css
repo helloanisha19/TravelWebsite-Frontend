@@ -1,0 +1,978 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@300&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 2.5rem;
+    outline: none;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.header{
+    width: 1120px;
+    height: 72px;
+    margin-left: 160px;
+    margin-top: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    order: 1;
+    width: Hug (675px);
+    height: Hug (24px);
+    gap: 33px;
+    margin-top: 21px;
+    margin-right: 40px;
+}
+
+.logo{
+    order: 0;
+}
+
+.menu li{
+    list-style-type: none;
+   
+    border: 0.2px  #0C0C0C;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 14px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    color: #0C0C0C;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 230px;
+    height: 72px;
+}
+
+
+
+.sec1{
+    background: url(./bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3));
+    width: 100vw;
+     margin-top: 40px;
+   height: 95vh;
+   background-repeat: no-repeat;
+   background-position: center;
+   /* background-size: 1450px 750px; */
+   background-size: cover;
+}
+
+.homecont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec1 .homecont h1{
+    font-size: 8rem;
+    width: 1021px;
+    height: 125px;
+    font-family: 'Abril Fatface', serif;
+    margin-top: 90px;
+    margin-left: 90px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+
+.ticket{
+    display: flex;
+height: 13.625rem;
+width: 75rem;
+padding: 2rem;
+margin: 25rem 0rem 0rem 43rem;
+border-radius: 0 3.125rem 3.125rem 3.125rem;
+background: rgba(255, 255, 255, 0.70);
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+justify-content: center;
+gap: 4rem;
+}
+
+.item{
+ display: flex;
+ height: 9.625rem;
+padding: 2rem;
+justify-content: center;
+align-items: center;
+align-content: center;
+border-radius: 2.5rem;
+background: rgba(255, 255, 255, 0.70);
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.20);
+}
+
+.item1{
+    width: 28.04831rem;
+    gap: 2rem;
+}
+
+.item2{
+    width: 35rem;
+    gap: 3rem;
+}
+
+.locat1{
+    margin-bottom: 2rem;
+    letter-spacing: 0.1rem;
+    margin: 0rem auto 1rem auto;
+    color: rgba(0, 0, 0, 0.50);
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+}
+
+.locat2{
+    text-align: center;
+    color: var(--siah, #292D32);
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.air{
+    border-radius: 3.9375rem;
+border: 1px dashed #7F7F7F;
+}
+
+.tab{
+    display: flex;
+    flex-direction: row;
+padding: 1rem 2rem;
+align-items: center;
+gap: 2rem;
+border-radius: 3.125rem 3.125rem 0rem 0rem;
+background: rgba(255, 255, 255, 0.70);
+position: absolute;
+margin: 20rem 0 20rem 43rem;
+width: 25rem;
+height: 5rem;
+justify-content: flex-start;
+}
+
+.tabhead1{
+    display: inline-block;
+    color: #FFF;
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+position: relative;
+top: -0.4rem;
+}
+
+.tabhead2{
+    display: inline-block;
+    color: #000;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.btn1{
+    color: #fff;
+    background: rgba(23, 123, 165, 1);
+    border: none;
+    width: 10.31rem;
+    height: 3.31rem;
+    margin-bottom: 0rem;
+}
+
+.tabimg{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+
+
+
+
+.flight{
+    margin-top: 0.1rem;
+}
+
+
+
+/* #################upcoming offers##################### */
+
+.image{
+    width: 293px;
+    height: 239px;
+    border-radius: 40px;
+
+}
+
+.main-head{
+    
+color: var(--siah, #292D32);
+text-align: center;
+font-family: Poppins;
+font-size: 4rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 4rem;
+
+}
+
+.articlecont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.art{
+display: flex;
+padding: 3rem;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+border-radius: 3.125rem;
+background: #FFF;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+margin:1.5rem 1.5rem;
+}
+
+.art h2{
+    font-size: 2rem;
+}
+
+.info{
+   
+    display: flex;
+    width: 17.9375rem;
+    align-items: flex-end;
+    gap: 1rem;
+    margin: 0rem 2rem;
+    justify-content: center;
+    height: 1.32rem;
+}
+
+.chill{
+    border: 2.5rem ;
+    border-radius: 2.5rem;
+    background: var(--green, #D6EDEB);
+    padding: 0rem 0.9375rem;
+    color: rgba(45, 137, 133, 1);
+    width: 4.18rem;
+    height: auto;
+}
+
+.relax{
+    border: 2.5rem ;
+    border-radius: 2.5rem;
+    background: var(--pink, #FCDDEC);
+    padding: 0rem 0.9375rem;
+    color: rgba(241, 120, 182, 1);
+    width: 4.18rem;
+    height: auto;
+
+}
+.common{
+    /* gap: 1rem; */
+    font-size: 1rem;
+}
+
+.book{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 1rem;
+    margin: 0rem 2rem;
+    width: 24rem;
+    height: 2.3rem;
+}
+
+.charges{
+    color: var(--siah, #292D32);
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+span{
+    color: rgba(0, 0, 0, 0.50);
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.booking{
+    border-radius: 1.6rem;
+    background: var(--main, #177BA5);
+    padding: 0.5rem 1rem;    
+    width: 6.52813rem;
+    height: 2.32rem;
+    color: #FFF;
+font-family: Poppins;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+/* ###########chill or relax k andr ka color change ni huaaa or ye sb accordance with root element jiski 10px h size usek acc m pta ni kyu ni horhaa############################ */
+
+
+/* ## SEC4 IT IS #### */
+
+.sec4cont{
+    display:flex;
+    display: flex;
+padding-right: 5rem;
+justify-content: center;
+align-items: center;
+align-content: center;
+gap: 20rem;
+align-self: stretch;
+flex-wrap: wrap;
+background: #F4F2EE;
+margin: 6.25rem 0;
+
+}
+
+.sec4item1{
+    width: 38.4375rem;
+    height: 38.4375rem;
+    background: url(./img.jpg);
+    background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+
+}
+
+.sec4item2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+gap: 2rem;
+width: 39.75;
+height: 20.15;
+margin-left: 5rem;
+}
+
+.para{
+    width: 39.75rem;
+    height: 9rem;
+    color: var(--siah, #292D32);
+text-align: justify;
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 2.25rem */
+}
+
+.head{
+    width: 39.75rem;
+    height: 4.5rem;
+    color: var(--main, #177BA5);
+font-family: Poppins;
+font-size: 3rem;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 4.5rem */
+}
+
+.btn4{
+    color: #fff;
+    background: rgba(23, 123, 165, 1);
+    width: 16.87rem;
+    height: 3.31rem;
+    padding-bottom: 3rem;
+    border: none;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 1rem;
+font-style: normal;
+line-height: normal;
+text-transform: capitalize;
+padding-top: 1.5rem;
+}
+
+
+/* #####  DOWNLOAD NOW WALE BOTTON FLEXBOX SE KESE HOGA YE SMJH NI AYA TOH CHORD RHI HU RIGHT NOW  ##### */
+
+
+/* ### SEC5 IT IS ##### */
+
+.sec5cont{
+    width: 90vw;
+     display: flex;
+height: 22.9375rem;
+flex-direction: row;
+align-items: flex-start;
+justify-content: center;
+gap: 6.5rem;
+margin: 6.5rem auto 0rem auto;
+
+
+
+}
+
+.sec5item1{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; 
+width: 26.4375rem;
+height: 22.9325rem;
+
+justify-content:center;
+align-items: flex-end;
+
+flex-shrink: 0;
+}
+
+.sec5head{
+    color: var(--siah, #292D32);
+font-family: Poppins;
+font-size: 3rem;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 4.5rem */
+align-self: stretch;
+width: 26.43rem;
+height: 9rem;
+}
+
+.sec5para{
+    color: var(--siah, #292D32);
+text-align: justify;
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 2.25rem */
+width: 26.43rem;
+height: 6.75rem;
+}
+
+.arrows{
+    
+width: 6.25rem;
+height: 3.125rem;
+}
+
+/* ##### PHOTO LGAI H TUNEE YE BNEN AH MSJHI TOH VAPIS KRNA  ### */
+
+
+.sec5item2{
+    display: flex;
+    width: 41.9375rem;
+    height: 22.75rem;
+    align-items:flex-end;
+    gap: 2rem;
+    flex-shrink: 0;
+   
+}
+
+.sec5img{
+    width: 13.56rem;
+    height: 22.75rem;
+
+}
+
+/* ### SEC5 IT IS ---- WEBLOG #### */
+
+#Blog{
+    width: 90rem;
+    height: 100vh;
+    margin: 6.25rem auto;
+}
+
+.sec6head{
+color: var(--siah, #292D32);
+font-family: 'Poppins', sans-serif;
+font-size: 3rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+width: 35.0625rem;
+height: 4.5rem;
+margin: 0 30%;
+
+}
+
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.bimg{
+    width: 34.25rem;
+height: 22.3125rem;
+border-radius: 3.125rem;
+}
+
+.blog{
+display: flex;    
+flex-direction: row;
+justify-content: center;
+gap: 2.5rem;
+align-items: center;
+align-content: center;
+align-self: stretch;
+flex-wrap: wrap;
+width: 90rem;
+height: 30.71rem;
+}
+
+.blog1{
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.btext{
+display: flex;
+width: 33.625rem;
+height: auto;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.5rem;
+}
+
+.bhead{
+    color: #000;
+font-family: Poppins;
+font-size: 2.375rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 33.625rem;
+}
+
+.bpara{
+    color: var(--siah, #292D32);
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 200%; /* 3rem */
+}
+
+.read{
+    color: var(--siah, #292D32);
+text-align: center;
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.btext2{
+    order: -1;
+}
+
+.readmore{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.read{
+    margin-top: 0.25rem;
+}
+
+/* #####  ARROW OR READ EK LINE M NI AAYE CHECK LATER #### */
+
+/* ####   SEC7 it is ######## */
+
+#Testimonial{
+    width: 100vw;
+    height: 55vh;
+    margin-top: 6.25rem;
+    margin: 6.25rem 0;
+}
+
+.testhead{
+    color: var(--siah, #292D32);
+text-align: center;
+font-family: Poppins;
+font-size: 3.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+margin-bottom: 4rem;
+}
+
+.test{
+    width: 80vw;
+    height: 31.05rem;
+    margin: 4rem auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pep{
+    width: 5.1875rem;
+height: 5.1875rem;
+border-radius: 3.125rem;
+position: relative;
+left: 0.8rem;
+top: -3.9rem;
+}
+
+.pep1{
+    width: 5.1875rem;
+    height: 5.1875rem;
+    border-radius: 50%;
+    position: relative;
+left: 0.7rem;
+top: -3.9rem;
+}
+
+.divv{
+    display: flex;
+    position: static;
+width: 31.4375rem;
+height: 23.3125rem;
+padding: 4rem 2rem 2rem 2rem;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+align-content: center;
+gap: 2rem;
+flex-shrink: 0;
+border-radius: 3.125rem;
+background: #FFF;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+margin: 7rem 5rem;
+}
+
+.pephead{
+color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: relative;
+top: -4rem;
+}
+
+.pephead1{
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: relative;
+top: -4rem;
+
+}
+
+.pepara{
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-bottom: 5rem;
+top: -20rem;
+/* margin-bottom: 10rem; */
+}
+
+.pepara1{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 5rem;
+    top: -4rem;
+}
+
+.pag{
+    margin: 0 46%;
+}
+
+
+/* #### SEC8 IT IS ### */
+
+.sec8{
+    width: 100vw;
+    height: 100vh;
+}
+
+.ocean{
+    width: 100%;
+    height: 60vh;
+    background:  url(./ocean.jpg); 
+    /* #####  ISPE RADIAL GRADIENT NI LGAI ### */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+
+}
+.btn8{
+    color: #fff;
+    background: rgba(23, 123, 165, 1);
+    width: 18rem;
+    height: 3.31rem;
+    padding-bottom: 3rem;
+    border: none;
+text-align: center;
+font-family: Poppins;
+font-size: 1.2rem;
+font-style: normal;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.sec8info{
+    width: 120rem;
+    height: 27.12rem;
+    margin: 7.69rem 22.69rem ;
+    display: flex;
+    flex-direction: column;
+padding: 7.6875rem 22.0625rem;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+align-self: stretch;
+align-content: center;
+}
+
+.sec8head{
+    color: var(--siah, #292D32);
+text-align: center;
+font-family: Poppins;
+font-size: 4rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 14rem;
+}
+
+.holder{
+    width: 100vw;
+    height: 40vh;
+    
+    margin: 2rem;
+}
+
+/* ########## footer subpart ####### */
+
+.holder{
+    display: flex;
+    flex-direction: row;
+    gap: 14rem;
+  
+width: 100vw;
+justify-content: center;
+align-items: center;
+}
+
+
+/* ###### col1 ######### */
+.col1{
+display: flex;
+width: 16.875rem;
+padding: 1rem 0rem;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 1rem;
+flex-shrink: 0;
+align-self: stretch;
+}
+
+.chead{
+color: var(--siah, #292D32);
+font-family: Poppins;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.c1p{
+ color: var(--siah, #292D32);
+font-family: Poppins;
+font-size: 0.975rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.follow{
+    color: var(--siah, #292D32);
+font-family: Poppins;
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+/* ###### col2 it is */
+
+.col2{
+    display: flex;
+width: 9.9375rem;
+padding: 1rem 0rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+flex-shrink: 0;
+align-self: stretch;
+justify-content: center;
+}
+
+.c2p{
+    color: var(--siah, #292D32);
+font-family: Poppins;
+font-size: 0.9rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* #### col3 ##### */
+
+.col3{
+display: flex;
+width: 20.875rem;
+padding: 1rem 0rem;
+align-items: flex-start;
+align-content: flex-start;
+gap: 0.625rem;
+flex-shrink: 0;
+align-self: stretch;
+flex-wrap: wrap;
+margin-top: 5rem;
+}
+
+/* col4 */
+
+.col4{
+display: flex;
+width: 16.875rem;
+padding: 1rem 0rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+flex-shrink: 0;
+align-self: stretch;
+justify-content: center;
+}
+
+.btn81{
+    
+        color: #fff;
+        background: rgba(23, 123, 165, 1);
+        width: 16.87rem;
+        height: 3.31rem;
+        padding-bottom: 3rem;
+        border: none;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-top: 1.5rem;
+}
+
+.c4p1{
+    color: var(--siah, #292D32);
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.em{
+    padding: 1rem;
+    border-radius: 3.125rem;
+border: 1px solid rgba(0, 0, 0, 0.25);
+background: #FFF;
+color: rgba(41, 45, 50, 0.5);
+text-align: center;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+width: 16.87rem;
+}
+
+.frame{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-top: 1px solid rgba(0, 0, 0, 0.15);
+background: var(--siah, #292D32);
+padding: 0.9375rem 0rem 1rem 0rem;
+text-align: center;
+}
